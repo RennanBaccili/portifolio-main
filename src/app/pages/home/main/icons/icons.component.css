@@ -1,0 +1,67 @@
+
+.icons{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img{
+  width: 10vh;
+  margin-left: 2vh;
+}
+
+.animacao-img-1{
+  transition: 0.5s;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #fff;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+
+.html{
+  background-color: #E44D26;
+}
+
+.css{
+  background-color: #1572B6;
+}
+.js{
+  background-color: #F0DB4F;
+}
+
+.ts{
+  background-color: #007ACC;
+}
+
+.java{
+  background-color: #EA2D2E;
+}
+
+.python{
+  background-color:  #3670A0;
+}
+
+.angular{
+  background-color: #DD1B16;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.animacao-img-1:hover {
+  margin-top:-20px;
+  width: 11vh;
+  visibility: visible;
+}

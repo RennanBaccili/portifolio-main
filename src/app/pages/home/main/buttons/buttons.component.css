@@ -1,0 +1,64 @@
+.button-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button-content a{
+    text-decoration: none;
+}
+
+button{
+  background-color: white;
+}
+
+.button-content > a > button{
+  margin: 1vh auto;
+  padding: 1vh 2vh 1vh ;
+  border-radius: 2vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.linkedin{
+  color: #0A66C2;
+  border-color: #0A66C2;
+  background-color: white;
+}
+
+
+a > .linkedin:hover{
+  background-color: #0A66C2;
+  color: white;
+}
+
+.git{
+  color: black;
+  border-color: black;
+}
+
+.git:hover{
+  background-color: black;
+  color: white;
+}
+
+.instagram{
+  color: #EA425F;
+  background-color: white;
+  border-color: #EA425F;
+}
+
+.instagram:hover{
+  color: white;
+  background-color: #EA425F;
+}
+
+.email{
+  background-color: white;
+  color:#34A853 ;
+  border-color: #34A853;
+}
+.email:hover{
+  background-color: #34A853;
+  color: white;
+}
