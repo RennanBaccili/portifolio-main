@@ -1,8 +1,7 @@
 .card{
-  background-color: #000000be;
-  min-height: 60vh;
-  min-width: 100vh;
-  max-width: 100vh;
+  background-color: #052037d0;
+  min-height: 65vh;
+  max-width: 70vh;
   margin: 5vh auto;
   border-radius: 2vh;
   display: flex;
@@ -21,7 +20,7 @@
 }
 .card-content__text h1{
   margin: 10px auto;
-  color: aqua;
+  color: white;
   font-weight: bold;
   font-size: 4vh;
 }
@@ -40,45 +39,56 @@
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 10px;
+    padding: 1px;
     border-radius: 100vh;
     font-size: 2.5vh;
     font-weight: bold;
 }
 
+/* content card */
+
 .card-content-imgs{
-  border: 1px solid black;
-  min-width: 100%;
-  min-height: 100%;
+  border: 1px solid #052037;
+  height:40vh;
+  min-width: 70vh;
   display: flex;
   flex-direction: row;
-  background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png");
+  /* background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png"); */
 }
 
+/* primeiro card */
 .img_main{
-  min-height: 35vh;
-  min-width: 50vh;
+  height:33vh;
+  max-width: 100vh;
   display: flex;
   margin: 2vh auto;
 }
 
-.img_main img{
-  background-image: url("/../../../../assets/img/img_02.jpeg"); /* The image used */
+.card-content-imgs .img_main img{
   width: 100%;
   height: 100%;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-
 }
 
+/* segundo card */
+
 .img_responsive{
-  background-color: white;
-  min-height: 35vh;
-  min-width: 23vh;
+  height:33vh;
+  max-width: 20vh;
   display: flex;
   margin: 2vh auto;
 }
+
+.card-content-imgs .img_responsive span > img{
+  width: 100%;
+  height: 100%;
+  background-position: center; /* Center the image */
+  background-size: cover;
+}
+
+/* conteudo */
 
 .card-content-inf{
   display: flex;
@@ -89,9 +99,13 @@
 .card-content-inf-tec{
   display: flex;
   border: 1px solid black;
-  color: aqua;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  font-size: 2.2vh;
+  padding: 5px;
 }
 .card-content-inf-txt p{
   color: white;
+  font-size: 2.5vh;
+  padding: 5px;
 }

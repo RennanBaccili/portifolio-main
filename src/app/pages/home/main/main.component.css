@@ -1,7 +1,6 @@
 
 .presentation{
   max-width: 150vh;
-
   margin: 10vh auto;
   display: flex;
   align-items: center;
@@ -17,6 +16,7 @@
 .presentation-content-text h1{
   font-weight: bolder;
   font-size: 5vh;
+  color: rgb(0, 0, 80);;
 }
 
 
@@ -30,17 +30,25 @@
 
 .presentation-content-img{
   display: flex;
-  min-width: 40vh;
+  max-width: 50vh;
+
 }
 
 .presentation-content-img img{
+  background-color: #385b79cd;
   border-radius: 100%;
-  width: 60vh;
-  height: 100%;
-  width: 100%;
-  min-width: 50%;
+  width:300vh;
+  max-height: 100%;
+  max-width: 100%;
   border: 1px solid black;
+  box-shadow: 5px 10px 50px #949494;
 }
+
+strong{
+  color: rgb(0, 0, 80);
+}
+
+
 .button{
   width: 100%;
 }

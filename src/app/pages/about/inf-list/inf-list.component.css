@@ -1,0 +1,36 @@
+.skylls{
+  display: flex;
+  flex-direction: column;
+  background-color: #385B79;
+  flex-wrap: wrap;
+}
+.skylls-title{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #052037;
+  width: 100%;
+}
+.skylls-title h2{
+  padding: 5px;
+  color: white;
+  display: flex;
+}
+
+.skylls-about ul{
+  padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.skylls-about ul li{
+  color: white;
+  padding: 5px;
+  font-size: 2vh;
+}
+.skylls-about ul li:hover{
+  font-weight: bolder;
+}

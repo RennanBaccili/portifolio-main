@@ -2,6 +2,7 @@
 @media screen and (max-width:800px) {
   .menu{
     bottom: 0;
+    height: 100vh;
     position: fixed;
   }
 
@@ -12,9 +13,11 @@
   .menu-content,.menu-content ul{
     flex-direction: column;
     justify-content: center;
+
   }
 
   .menu-content{
+
     height: 100vh;
   }
 
@@ -38,6 +41,7 @@
     text-align: center;
     padding: 1rem;
     cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
   }
 
   .close-menu:checked~.menu{
@@ -48,6 +52,10 @@
   }
 
   .menu-spacing{
+    display: none;
+  }
+
+  .close-menu{
     display: none;
   }
 }

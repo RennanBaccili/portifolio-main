@@ -1,0 +1,52 @@
+@media screen and (max-width:800px) {
+
+
+.card{
+  min-width: 10vh;
+  margin: 14vh auto;
+  border-radius: 2vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.card-content-imgs{
+  border: 1px solid black;
+  min-width: 30vh;
+  height: 35vh;
+  display: flex;
+  /* background-image: url("https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png"); */
+}
+
+.img_main{
+  max-height:30vh;
+  min-width: 30vh;
+  display: flex;
+  margin: 2vh auto;
+}
+
+.card-content-imgs .img_main span img{
+  margin: 0vh auto;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .img_responsive{
+  height:43vh;
+  min-width:20vh;
+  display: flex;
+  margin: 2vh auto;
+}
+
+.card-content-imgs .img_responsive span img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+} */
+
+
+}

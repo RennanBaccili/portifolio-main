@@ -6,8 +6,8 @@
 }
 
 img{
-  width: 10vh;
-  margin-left: 2vh;
+  width: 8vh;
+  margin: 2vh 1vh;
 }
 
 .animacao-img-1{
@@ -22,9 +22,9 @@ img{
   font-weight: bold;
   text-align: center;
   justify-content: center;
-  
+
   border-radius: 6px;
-  padding: 5px 0;
+
 
   /* Position the tooltip */
   position: absolute;
@@ -63,6 +63,6 @@ img{
 }
 
 .animacao-img-1:hover {
-  margin-top:-30px;
+  margin-top:-5px;
   visibility: visible;
 }

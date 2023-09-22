@@ -3,11 +3,11 @@
 
 img{
   width: 7vh;
-  margin-left: 2vh;
+  margin: 2vh 2vh 0 2vh;
 }
 
 .animacao-img-1:hover {
-  margin-top:-50px;
+  margin-top:-30px;
 }
 .tooltip .tooltiptext {
   display: flex;

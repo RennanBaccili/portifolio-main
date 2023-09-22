@@ -1,79 +1,13 @@
-<section id="about" class="section">
-  <hr>
-  <div class="about">
-      <div class="about-title title">
-          <h1>Sobre mim</h1>
-      </div>
-      <div class="about-description">
-          <p>Sou apaixonado por programação, amo programar, meu dia começa e termina estudando programação, amo o que faço, estou em busca de novas desafios e oportunidades que me permitam evoluir e crescer como programador, seja de forma pessoal e profissional.<br>
-              Sou muito organizado e meus principais conhecimentos são focados principalmente nas tecnologias<strong> HTML, CSS, Java Script,  TypeScrypt, Angular</strong>  mas também programo em <strong>JAVA POO, PYTHON.</strong></p>
-          <div  class="about-img-1">
-              <img src="../../../assets/img/img-main-01.jpeg" alt="" srcset="">
-          </div>
-      </div>
-
-      <div class="about-title-skills">
-          <div class="about-skill-title title">
-              <h2>Skills</h2>
-          <div class="about-skill-description">
-              <ul>
-                  <li>Trabalho em equipe</li>
-                  <li>Comunicativo</li>
-                  <li>Inglês Intermediario</li>
-                  <li>Atenção aos detalhes</li>
-              </ul>
-          </div>
-          </div>
-
-          <div class="about-skill-title title">
-              <h2>Languages</h2>
-          <div class="about-skill-description">
-              <ul>
-                  <li>Javascript</li>
-                  <li>TypeScrypt</li>
-                  <li>Java</li>
-                  <li>Python</li>
-              </ul>
-          </div>
-          </div>
-          <div class="about-skill-title title">
-              <h2>Frameworks</h2>
-          <div class="about-skill-description">
-              <ul>
-                  <li>JavaSpring</li>
-                  <li>Angular</li>
-                  <li>React</li>
-                  <li>React</li>
-              </ul>
-          </div>
-          </div>
-
-          <div class="about-skill-title title">
-              <h2>Bibliotecas</h2>
-              <div class="about-skill-description">
-                  <ul>
-                      <li>habilidade</li>
-                      <li>habilidade</li>
-                      <li>habilidade</li>
-                      <li>React</li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="about-certificacao">
-          <div class="about-certificacao-title title">
-              <h2>Certificação</h2>
-          <div class="about-certificacao-description description">
-              <li>Cursando Análise e desenvolvimento de Sistemas na Uninter</li>
-              <li>Etec - Maoel dos Reis Araújo - <strong>Curso Técnico em Informática para Internet Integrado ao Ensino Médio</strong> - duração 3 anos</li></div>
-          </div>
-
-          </div>
-          <div class="about-certificacao-title title">
-              <h2>Experiencia Profssional</h2>
-          </div>
-          <div class="about-certificacao-description description">
-              <li>Minha Experiencia foi desenvolvida ao longo de um ano, trabalhando em projetos de cursos, projetos pessoais e free lance.</li>
-          </div>
-      </div>
+<section class="about">
+  <app-inf [imagem]="'../../../assets/img/img-02.jpeg'"></app-inf>
+  <div class="about-info">
+    <app-inf-list title="Habilidades"></app-inf-list>
+    <app-inf-list title="Linguagens" [skylls]="['Java','JavaScript','Python','TypeScrypt']"></app-inf-list>
+    <app-inf-list title="Frameworks" [skylls]="['Angular','JavaSpring','React','Boostrap']" ></app-inf-list>
+    <app-inf-list title="Ferramentas" [skylls]="['Git GitHub','CSS','HTML','Figma']"></app-inf-list>
+  </div>
+  <app-inf title="Certificação" [paragraph]="['Em Curso de Análise e desenvolvimento de Sistemas na Uninter','Etec - Maoel dos Reis Araújo - Curso Técnico em Informática para Internet Integrado ao Ensino Médio - duração 3 anos']"  >
+  </app-inf>
+  <app-inf title="Experiencia" [paragraph]="['Minha Experiencia foi desenvolvida ao longo de um ano, trabalhando em projetos de cursos, projetos pessoais e free lance.']"  >
+  </app-inf>
 </section>

@@ -3,6 +3,8 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 5vh;
 }
 
 .button-content a{

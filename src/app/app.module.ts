@@ -15,6 +15,9 @@ import { HomeModule } from './pages/home/home.module';
 import { ProjectsModule } from './pages/projects/projects.module';
 import { AboutModule } from './pages/about/about.module';
 import { CardComponent } from './pages/projects/card/card.component';
+import { InfComponent } from './pages/about/inf/inf.component';
+import { InfListComponent } from './pages/about/inf-list/inf-list.component';
+
 
 @NgModule({
   declarations: [
@@ -26,14 +29,18 @@ import { CardComponent } from './pages/projects/card/card.component';
     IconsComponent,
     ProjectsComponent,
     AboutComponent,
-    CardComponent
+    CardComponent,
+    InfComponent,
+    InfListComponent
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    ProjectsModule,
-    AboutModule
+    ProjectsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

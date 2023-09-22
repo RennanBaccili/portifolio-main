@@ -1,0 +1,51 @@
+.about{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #385B79;
+  margin: 0 auto;
+}
+
+.about-title{
+  width: 100%;
+  display: flex;
+  background-color: #052037;
+  color: white;
+}
+
+.about-title h1{
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.about-org {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  justify-content: center;
+  margin-left: 2vh;
+}
+.about-org-text{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.about-org-text p{
+  color:white;
+  padding: 10px;
+  font-size: 2.4vh;
+}
+
+.about-img{
+  width: 30vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.about-img img{
+  width: 100%;
+}
