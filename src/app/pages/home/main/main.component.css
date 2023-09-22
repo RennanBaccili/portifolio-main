@@ -1,8 +1,8 @@
 
 .presentation{
-  max-width: 1300px;
-  height: 70vh;
-  margin: 2rem auto;
+  max-width: 150vh;
+
+  margin: 10vh auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,26 +21,25 @@
 
 
 .presentation-content-text p{
-
-  font-size: 2vh;
+  font-size: 3vh;
 }
 
 .main-icons{
   margin:2vh auto;
 }
 
-
 .presentation-content-img{
-  border-radius: 50%;
-  max-width: 50vh;
-
+  display: flex;
+  min-width: 40vh;
 }
 
 .presentation-content-img img{
   border-radius: 100%;
+  width: 60vh;
   height: 100%;
   width: 100%;
   min-width: 50%;
+  border: 1px solid black;
 }
 .button{
   width: 100%;

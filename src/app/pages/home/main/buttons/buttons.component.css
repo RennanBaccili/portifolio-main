@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .button-content a{
     text-decoration: none;
+
 }
 
 button{

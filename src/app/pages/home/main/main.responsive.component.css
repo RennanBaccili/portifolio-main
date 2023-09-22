@@ -1,0 +1,36 @@
+@media screen and (max-width:800px) {
+
+  .presentation{
+    max-width: 130vh;
+    height: 100vh;
+    margin: 0vh 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .presentation-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .presentation-content-text h1{
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+
+
+  .presentation-content-text p{
+    font-size: 2vh;
+  }
+
+  .main-icons{
+    margin:20px auto;
+  }
+
+  .presentation-content-img{
+    display: none;
+  }
+}

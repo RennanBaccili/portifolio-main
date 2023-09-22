@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { MenuComponent } from './menu/menu.component';
+import { MenuComponent } from './components/menu/menu.component';
 import { MainComponent } from './pages/home/main/main.component';
 import { ButtonsComponent } from './pages/home/main/buttons/buttons.component';
 import { IconsComponent } from './pages/home/main/icons/icons.component';
@@ -14,6 +14,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeModule } from './pages/home/home.module';
 import { ProjectsModule } from './pages/projects/projects.module';
 import { AboutModule } from './pages/about/about.module';
+import { CardComponent } from './pages/projects/card/card.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { AboutModule } from './pages/about/about.module';
     IconsComponent,
     ProjectsComponent,
     AboutComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

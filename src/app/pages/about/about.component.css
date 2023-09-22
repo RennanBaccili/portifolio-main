@@ -36,7 +36,7 @@ h2{
 .about-description{
   display: flex;
   align-items: center;
-  background-color: rgb(56, 91, 121);
+  background-color: #385B79;
 }
 
 .about-description p{
