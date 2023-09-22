@@ -61,7 +61,7 @@
   height:33vh;
   max-width: 100vh;
   display: flex;
-  margin: 2vh auto;
+  margin: 0vh auto;
 }
 
 .card-content-imgs .img_main img{
