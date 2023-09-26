@@ -22,4 +22,8 @@ export class CardComponent {
 
   @Input()
   imagem_2:String='https://img.freepik.com/vetores-premium/icone-de-escudo-projeto-de-trabalho-em-andamento-grafico-de-vetor_24908-25791.jpg?w=2000';
+  @Input()
+  linkSite:String='https://doceria-exemplo.netlify.app/'
 }
+
+
